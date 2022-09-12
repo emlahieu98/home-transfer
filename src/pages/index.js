@@ -16,8 +16,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Startup agency landing template"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Dịch vụ chuyển nhà online 24/7"
+          description="Chúng tôi cung cấp các giải pháp và chi phí vận chuyển nhà rẻ nhất Hà Nội !"
         />
         <Banner />
         <Services />
