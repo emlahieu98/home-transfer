@@ -4,14 +4,13 @@ import { jsx, Box, Container, Heading, Text, Image } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
-import { LearnMore } from 'components/link';
 import tabImage1 from 'assets/images/tab-illustration-1.png';
 
 const data = [
   {
     id: 1,
     tabTitle: 'Tại sao lại nên lựa chọn dịch vụ của chúng tôi ?',
-    description: `Công ty Chuyển nhà như ý là dịch vụ lần đầu tiên có ở Việt Nam. Dịch vụ chuyển nhà như ý siêu tốc luôn tiên phong dẫn đầu trong việc sáng tạo các dịch vụ, nhằm đem lại cho khách hàng sự hài lòng tuyệt đối.`,
+    description: `Công ty Chuyển nhà Như Ý là dịch vụ lần đầu tiên có ở Việt Nam. Dịch vụ chuyển nhà Như Ý siêu tốc luôn tiên phong dẫn đầu trong việc sáng tạo các dịch vụ, nhằm đem lại cho khách hàng sự hài lòng tuyệt đối.`,
     image: tabImage1,
     list: [
       'Nhanh chóng',

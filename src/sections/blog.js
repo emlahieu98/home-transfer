@@ -26,7 +26,7 @@ const data = [
     showDescription: false,
     title: `Tại sao nên sử dụng dịch vụ chuyển nhà trọn gói`,
     description: `
-    Không phải ngẫu nhiên mà Vận chuyển như ý đang là cái tên được người tiêu dùng ưu tiên lựa chọn mỗi khi có nhu cầu sử dụng các loại hình dịch vụ vận chuyển. Cùng tìm hiểu những lý do tại sao nên sử dụng dịch vụ chuyển nhà trọn gói như ý để hiểu vì sao chúng tôi là một trong những đơn vị cung cấp dịch vụ được tin dùng hàng đầu hiện nay...`,
+    Không phải ngẫu nhiên mà Vận chuyển như ý đang là cái tên được người tiêu dùng ưu tiên lựa chọn mỗi khi có nhu cầu sử dụng các loại hình dịch vụ vận chuyển. Cùng tìm hiểu những lý do tại sao nên sử dụng dịch vụ chuyển nhà trọn gói Như Ý để hiểu vì sao chúng tôi là một trong những đơn vị cung cấp dịch vụ được tin dùng hàng đầu hiện nay...`,
   },
   {
     id: 3,

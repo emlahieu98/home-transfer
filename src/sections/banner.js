@@ -12,8 +12,8 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Sự sáng tạo bắt đầu bằng cách nhìn toàn bộ thế giới một cách khác biệt"
-            description="Sự hài lòng của khách hàng chính là thang điểm chuẩn nhất đánh giá một công ty"
+            title="Vận chuyển Như Ý"
+            description=" Uy tín - Chất lượng - An toàn"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
