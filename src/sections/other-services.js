@@ -14,55 +14,30 @@ const data = [
   {
     id: 1,
     icon: icon4,
-    moreLink: '#learn-more',
-    title: '3D modeling & art',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Tư vấn hỗ trợ & báo giá',
+    description: `Nhân viên tư vấn sẽ tiếp nhận thông tin tư vấn khách hàng qua Hotline/Zalo và báo giá.`,
   },
   {
     id: 2,
     icon: icon5,
-    moreLink: '#learn-more',
-    title: 'Digital promotion',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Vận chuyển trọn gói',
+    description: `Ký hợp đồng chuyển nhà, lên kế hoạch và tiến hành vận chuyển nhà cho quý khách hàng`,
   },
   {
     id: 3,
     icon: icon6,
-    moreLink: '#learn-more',
-    title: 'Business Enterprise',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 4,
-    icon: icon7,
-    moreLink: '#learn-more',
-    title: 'Marketing & advertising',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 5,
-    icon: icon8,
-    moreLink: '#learn-more',
-    title: 'Ultimate development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 6,
-    icon: icon9,
-    moreLink: '#learn-more',
-    title: 'Online support',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Nghiệm thu và thanh toán',
+    description: `Sau khi tháo lắp – vận chuyển – lắp đặt hoàn tất. Hai bên sẽ tiến hành nghiệm thu và thanh toán hợp đồng.`,
   },
 ];
 
 const OtherServices = () => {
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" id="team" sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Other services you must appreciate"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
+          title="Quy trình"
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

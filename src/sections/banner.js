@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
-import illustration from 'assets/images/banner-illustration.png';
+import illustration from 'assets/images/banner.jpeg';
 
 const Banner = () => {
   return (
@@ -17,7 +17,7 @@ const Banner = () => {
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Vận Chuyển Nhanh</Button>
+              <Button>Gọi ngay 0356.254.444</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>

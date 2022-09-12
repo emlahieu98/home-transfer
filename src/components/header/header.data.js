@@ -13,11 +13,11 @@ export default [
   },
   {
     path: 'why-us',
-    label: 'Why Us',
+    label: 'Câu hỏi thường gặp',
   },
   {
     path: 'blog',
-    label: 'Bảng giá',
+    label: 'Tin tức',
   },
   {
     path: 'login',

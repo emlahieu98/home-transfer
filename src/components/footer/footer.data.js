@@ -1,6 +1,5 @@
 import facebook from 'assets/images/icons/facebook.png';
 import twitter from 'assets/images/icons/twitter.png';
-import github from 'assets/images/icons/github.png';
 import dribbble from 'assets/images/icons/dribbble.png';
 
 export const menuItems = [
@@ -28,7 +27,7 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        label: 'Số ĐT: 0356254444',
+        label: 'Số ĐT: 0356.254.444',
       },
       {
         path: '#!',
@@ -59,7 +58,7 @@ export const menuItems = [
       },
       {
         path: '#!',
-        label: 'Taxi',
+        label: 'Cho thuê xe tải',
       },
       {
         path: '#!',

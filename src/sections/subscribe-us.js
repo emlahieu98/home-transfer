@@ -25,7 +25,7 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Bạn yêu thích dịch vụ của chúng tôi ? Theo dõi ngay"
+            title="Để lại số điện thoại để nhận tư vấn miễn phí"
           />
           <Box as="form" sx={styles.subscribe} onSubmit={handleSubmit}>
             <Flex sx={styles.inputGroup}>
@@ -36,26 +36,10 @@ const SubscribeUs = () => {
                 id="email"
                 type="email"
                 className="email-input"
-                placeholder="Nhập địa chỉ email"
+                placeholder="Nhập số điện thoại"
               />
-              <Button variant="secondary">Theo dõi</Button>
+              <Button variant="secondary">Tư vấn</Button>
             </Flex>
-            <Box sx={styles.checkbox}>
-              <Label htmlFor="no_spam" className={checked ? 'checked' : ''}>
-                <Checkbox
-                  id="no_spam"
-                  onChange={handleCheckbox}
-                  defaultChecked={checked}
-                />
-                Tôi đồng ý với các điều khoản trên
-              </Label>
-              {/* <Checkbox
-                id="no_spam"
-                checked={checked}
-                onChange={handleCheckbox}
-                label="Don’t provide any promotional message."
-              /> */}
-            </Box>
           </Box>
         </Box>
       </Container>

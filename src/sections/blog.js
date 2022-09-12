@@ -15,40 +15,42 @@ const data = [
     slug: '#how-to',
     thumbnail: thumb1,
     showDescription: true,
-    title: `How to work with prototype design with adobe xd featuring tools`,
-    description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
+    title: `Nên lựa chọn dịch vụ chuyển đồ đạc giá rẻ uy tín ở đâu ?`,
+    description: `
+    Hiện nay, trên thị trường có rất nhiều những đơn vị cung cấp các loại hình dịch vụ vận chuyển, chính vì thế, người tiêu dùng có thể dễ dàng tìm kiếm được một đơn vị khi có nhu cầu. Tuy nhiên, câu hỏi đặt ra cho khách hàng là nên lựa chọn...`,
   },
   {
     id: 2,
     slug: '#how-to',
     thumbnail: null,
     showDescription: false,
-    title: `Anti bias receives honorable gift mention at Fast Company’s most Innovation by Design Awards`,
-    description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
+    title: `Tại sao nên sử dụng dịch vụ chuyển nhà trọn gói`,
+    description: `
+    Không phải ngẫu nhiên mà Vận chuyển như ý đang là cái tên được người tiêu dùng ưu tiên lựa chọn mỗi khi có nhu cầu sử dụng các loại hình dịch vụ vận chuyển. Cùng tìm hiểu những lý do tại sao nên sử dụng dịch vụ chuyển nhà trọn gói như ý để hiểu vì sao chúng tôi là một trong những đơn vị cung cấp dịch vụ được tin dùng hàng đầu hiện nay...`,
   },
   {
     id: 3,
     slug: '#how-to',
     thumbnail: thumb3,
     showDescription: false,
-    title: `Multiple task wireframing with team management perform better`,
-    description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
+    title: `Chuyển nhà trọn gói vào mùa đông có khó khăn gì không?`,
+    description: `Mùa đông là thời điểm mà nhiều gia đình lựa chọn để chuyển đến nơi ở mới.Đồng thời, đây là lúc mà nhiều hợp đồng thuê nhà đã hết hạn hoặc các doanh nghiệp muốn thay đổi địa điểm để mở rộng kinh doanh, lấy vận may trong năm mới. Tuy nhiên, đây cũng là thời điểm mà bạn sẽ gặp phải một số khó khăn khi quyết định chuyển nhà trọn gói...`,
   },
   {
     id: 4,
     slug: '#how-to',
     thumbnail: thumb2,
     showDescription: true,
-    title: `Multiple art board prototype with Figma`,
-    description: `Beyond launched anti bias, a Chrome extension that replaces LinkedIn profile photos`,
+    title: `Những việc làm quan trọng trước khi chuyển chuyển nhà`,
+    description: `Việc chuyển về ngôi nhà mới là việc cực kỳ quan trọng bởi đây sẽ là nơi mà gia đình bạn bắt đầu cuộc sống mới. Chính vì vậy, trước khi chuyển nhà bạn cần phải làm được 2 việc cực kỳ quan trọng: làm sạch không gian và loại bỏ nguồn khí tiêu cực...`,
   },
   {
     id: 5,
     slug: '#how-to',
     thumbnail: thumb4,
     showDescription: false,
-    title: `Team presentation with latest user interface & experience reach more`,
-    description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
+    title: `Một số lưu ý khi chọn dịch vụ chuyển nhà giá rẻ`,
+    description: `Chuyển nhà giá rẻ là điều mà bạn sẽ cần nắm được để chắc rằng công việc chuyển nhà của mình sẽ được diễn ra một cách thuận lợi và an toàn, đảm bảo được lợi ích của mình. Những lưu ý đó sẽ được Vận chuyển Như Ý chia sẻ qua bài viết sau đây.`,
   },
 ];
 
@@ -60,8 +62,7 @@ const Blog = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Popular blog post we update everyday"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click."
+          title="Tin tức"
         />
         <Masonry options={masonryOptions} sx={styles.postContainer}>
           {data?.map((post) => (

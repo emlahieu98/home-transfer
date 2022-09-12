@@ -11,43 +11,35 @@ const data = [
   {
     id: 1,
     tabTitle: 'Tại sao lại nên lựa chọn dịch vụ của chúng tôi ?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
+    description: `Công ty Chuyển nhà như ý là dịch vụ lần đầu tiên có ở Việt Nam. Dịch vụ chuyển nhà như ý siêu tốc luôn tiên phong dẫn đầu trong việc sáng tạo các dịch vụ, nhằm đem lại cho khách hàng sự hài lòng tuyệt đối.`,
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Nhanh chóng',
+      'Chuyên nghiệp',
+      'Uy tín',
+      'Thuận tiện',
     ],
   },
   {
     id: 2,
     tabTitle: 'Dịch vụ của chúng tôi bảo đảm cái gì ?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
+    description: `Bảo đảm sự an toàn tuyệt đối với đội ngũ vận chuyển chuyên nghiệp`,
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Tài sản',
+      'An toàn'
     ],
   },
   {
     id: 3,
     tabTitle: 'Giá cả liệu có rẻ không ?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
-    moreLink: '#explore-more',
+    description: `Giá thành dịch vụ vận chuyển của chúng tôi luôn hợp lý so với mặt bằng chung với rất nhiều ưu đãi cho khách liên tục quanh năm`,
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Nhanh',
+      'Bổ',
+      'Rẻ',
+      'Hợp lí',
     ],
   },
 ];
@@ -78,9 +70,6 @@ const WhyUs = () => {
                       <span>{item}</span>
                     </Box>
                   ))}
-                </Box>
-                <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="Explore more" />
                 </Box>
               </Box>
               <Box sx={styles.illustration}>

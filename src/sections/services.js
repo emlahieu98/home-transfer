@@ -12,19 +12,19 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Tư vấn hỗ trợ & báo giá',
+    title: 'Chuyển nhà trọn gói',
     description: `Nhân viên tư vấn sẽ tiếp nhận thông tin tư vấn khách hàng qua Hotline/Zalo và báo giá`,
   },
   {
     id: 3,
     icon: icon2,
-    title: 'Vấn chuyển trọn gói',
+    title: 'Cho thuê xe tải',
     description: `Ký hợp đồng chuyển nhà, lên kế hoạch và tiến hành vận chuyển nhà cho quý khách hàng.`,
   },
   {
     id: 4,
     icon: icon3,
-    title: 'Nghiệm thu và thanh toán',
+    title: 'Dịch vụ bốc xếp',
     description: `Sau khi tháo lắp – vận chuyển – lắp đặt hoàn tất. Hai bên sẽ tiến hành nghiệm thu và thanh toán hợp đồng.`,
   },
 ];
