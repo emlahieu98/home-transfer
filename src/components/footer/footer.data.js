@@ -1,5 +1,5 @@
 import facebook from 'assets/images/icons/facebook.png';
-import twitter from 'assets/images/icons/twitter.png';
+import twitter from 'assets/images/icons/close.png';
 import dribbble from 'assets/images/icons/dribbble.png';
 
 export const menuItems = [
@@ -8,16 +8,8 @@ export const menuItems = [
     title: 'Các cơ sở ',
     items: [
       {
-        path: '#!',
-        label: 'CS1: P506, Tòa Nhà 714, Nguyễn Văn Cừ, Long Biên, Hà Nội',
-      },
-      {
-        path: '#!',
-        label: 'CS2: Ngõ 113, Nguyễn Văn Cừ, Trần Phú, Hà Nội',
-      },
-      {
-        path: '#!',
-        label: 'CS3: Ngõ 221, Phú Đô, Hà Đông, Hà Nội',
+        path: 'https://www.google.com/maps/dir//To%C3%A0+nh%C3%A0+An+B%C3%ACnh,+521+C%E1%BB%95+Nhu%E1%BA%BF,+B%E1%BA%AFc+T%E1%BB%AB+Li%C3%AAm+H%C3%A0+N%E1%BB%99i/@9.779349,105.6189045,11z?hl=vi-VN',
+        label: 'CS1: Toà nhà An Bình, 521 Cổ Nhuế, Bắc Từ Liêm Hà Nội',
       },
     ],
   },
@@ -71,12 +63,12 @@ export const menuItems = [
     title: 'Liên hệ',
     items: [
       {
-        path: '#!',
+        path: 'https://www.facebook.com/profile.php?id=100057492768070',
         icon: facebook,
         label: 'Facebook',
       },
       {
-        path: '#!',
+        path: 'https://mail.google.com',
         icon: twitter,
         label: 'Gmail',
       },
