@@ -12,7 +12,7 @@ import thumb4 from 'assets/images/blog/4.png';
 const data = [
   {
     id: 1,
-    slug: '#how-to',
+    slug: 'nen-lua-chon-dich-vu-nao',
     thumbnail: thumb1,
     showDescription: true,
     title: `Nên lựa chọn dịch vụ chuyển đồ đạc giá rẻ uy tín ở đâu ?`,
@@ -21,7 +21,7 @@ const data = [
   },
   {
     id: 2,
-    slug: '#how-to',
+    slug: 'tai-sao-nen-lua-chon-dich-vu-nay',
     thumbnail: null,
     showDescription: false,
     title: `Tại sao nên sử dụng dịch vụ chuyển nhà trọn gói`,
@@ -30,7 +30,7 @@ const data = [
   },
   {
     id: 3,
-    slug: '#how-to',
+    slug: 'chuyen-nha-tron-goi',
     thumbnail: thumb3,
     showDescription: false,
     title: `Chuyển nhà trọn gói vào mùa đông có khó khăn gì không?`,
@@ -38,7 +38,7 @@ const data = [
   },
   {
     id: 4,
-    slug: '#how-to',
+    slug: 'nhung-viec-quan-trong',
     thumbnail: thumb2,
     showDescription: true,
     title: `Những việc làm quan trọng trước khi chuyển chuyển nhà`,
@@ -46,7 +46,7 @@ const data = [
   },
   {
     id: 5,
-    slug: '#how-to',
+    slug: 'mot-so-luu-y',
     thumbnail: thumb4,
     showDescription: false,
     title: `Một số lưu ý khi chọn dịch vụ chuyển nhà giá rẻ`,

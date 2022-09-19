@@ -34,7 +34,7 @@ const SubscribeUs = () => {
               </Label>
               <Input
                 id="email"
-                type="email"
+                type="input"
                 className="email-input"
                 placeholder="Nhập số điện thoại"
               />
