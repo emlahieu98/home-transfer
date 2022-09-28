@@ -8,6 +8,8 @@ import thumb1 from 'assets/images/blog/1.png';
 import thumb2 from 'assets/images/blog/2.png';
 import thumb3 from 'assets/images/blog/3.png';
 import thumb4 from 'assets/images/blog/4.png';
+import { useState, useEffect } from 'react'
+
 
 const data = [
   {
@@ -22,7 +24,7 @@ const data = [
   {
     id: 2,
     slug: 'tai-sao-nen-lua-chon-dich-vu-nay',
-    thumbnail: null,
+    thumbnail: thumb3,
     showDescription: false,
     title: `Tại sao nên sử dụng dịch vụ chuyển nhà trọn gói`,
     description: `
@@ -54,9 +56,40 @@ const data = [
   },
 ];
 
+
+
 const masonryOptions = { originTop: true };
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
 
 const Blog = () => {
+
+  const [postList, setPostList] = useState([])
+
+
+  useEffect(() => {
+    async function fetchPostList() {
+
+      try {
+        const requestURL = `${BASE_URL}/api/posts?page=1&page_size=5`
+
+        const response = await fetch(requestURL)
+
+        const responseJson = await response.json()
+
+        const { data } = responseJson
+        console.log("🚀 ~ file: blog.js ~ line 80 ~ fetchPostList ~ data", data)
+
+        setPostList(data)
+
+      } catch (error) {
+        console.log("🚀 error", error.message)
+
+      }
+
+    }
+    fetchPostList()
+  }, [])
+
   return (
     <Box as="section" id="blog" sx={styles.section}>
       <Container>

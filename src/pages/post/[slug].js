@@ -17,8 +17,8 @@ export default function PostDetails() {
                     title="Dịch vụ chuyển nhà online 24/7"
                     description="Chúng tôi cung cấp các giải pháp và chi phí vận chuyển nhà rẻ nhất Hà Nội !"
                 />
+                <Post slug={slug} />
             </Layout>
-            <Post slug={slug} />
         </ThemeProvider>
     );
 }

@@ -70,8 +70,9 @@ const styles = {
     img: {
       display: ['none', null, null, 'block'],
       maxWidth: ['90%'],
-      m: ['0 auto'],
+      m: ['5px auto'],
     },
+
   },
   buttonWrapper: {
     textAlign: ['center'],
