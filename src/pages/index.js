@@ -16,7 +16,7 @@ export default function IndexPage() {
         <ThemeProvider theme={theme}>
             <Layout>
                 <SEO
-                    title="Dịch vụ chuyển nhà như ý online 24/7"
+                    title="Dịch vụ chuyển nhà Như Ý online 24/7"
                     description="Chúng tôi cung cấp các giải pháp và chi phí vận chuyển nhà rẻ nhất Hà Nội !"
                 />
                 <Banner />
