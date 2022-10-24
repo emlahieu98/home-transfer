@@ -56,7 +56,7 @@ const styles = {
         margin: 'auto',
     },
     header: {
-        backgroundColor: '#fff5ed',
+        backgroundColor: '#0A8080',
     },
     infoWrapper: {
         display: 'flex',
@@ -77,7 +77,7 @@ const styles = {
         width: '40px',
         height: '40px',
         padding: '10px',
-        background: '#0A8080',
+        background: '#faeb0b',
         color: '#000',
         textAlign: 'center',
     },

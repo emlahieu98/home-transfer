@@ -10,6 +10,7 @@ import OtherServices from 'sections/other-services'
 import WhyUs from 'sections/why-us'
 import SubscribeUs from 'sections/subscribe-us'
 import Blog from 'sections/blog'
+import Info from 'sections/info'
 
 export default function IndexPage() {
     return (
@@ -26,6 +27,7 @@ export default function IndexPage() {
                 <WhyUs />
                 <Blog />
                 <SubscribeUs />
+                <Info />
             </Layout>
         </ThemeProvider>
     )
